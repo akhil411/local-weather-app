@@ -1,0 +1,53 @@
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .sub-result p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .sub-result p {
+        font-size: 11px;
+        padding-left: 2px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .sub-weather-results {
+        display: grid;
+        height:auto;
+    }
+    .sub-result {
+        width: auto;
+    }
+    .sub-weather-result-one {
+        grid-area: 1/1/1/1;
+        margin: auto;
+    }
+    .sub-weather-result-two {
+        grid-area: 1/2/1/2;
+        margin: auto;
+    }
+    .weather-description-box .description p {
+        font-size: 17px;
+    }
+    .weather-description-box .description {
+        width: 200px;
+        min-height: 180px;
+    }
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px) {
+    .sub-result p {
+        font-size: 11px;
+        padding-left: 2px;
+    }
+    .main-climate-condition img {
+        width: 180px;
+    }
+    .results-description .location {
+        font-size: 26px;
+    }
+    .results-description .date {
+        font-size: 15px; 
+    }
+}
